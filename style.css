@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background: #f5f7fb;
+  direction: rtl;
+  color: #222;
+}
+
+.catalog {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.header h1 {
+  font-size: 34px;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #666;
+  font-size: 17px;
+}
+
+.table-wrapper {
+  background: #fff;
+  border-radius: 18px;
+  overflow: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+table {
+  width: 100%;
+  min-width: 750px;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #0f766e;
+  color: #fff;
+}
+
+thead th {
+  padding: 18px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+tbody td {
+  padding: 18px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  transition: 0.3s;
+}
+
+tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+tbody tr:hover {
+  background: #e6fffb;
+}
+
+tbody td:last-child {
+  color: #0f766e;
+  font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f766e;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header p {
+    font-size: 15px;
+  }
+
+  thead th,
+  tbody td {
+    padding: 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .catalog {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+}
