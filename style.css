@@ -92,6 +92,10 @@ tbody td:last-child {
   background: #0f766e;
   border-radius: 20px;
 }
+.icon {
+  width: 35px;
+  height: 35px;
+}
 
 @media (max-width: 768px) {
   .header h1 {
@@ -117,9 +121,33 @@ tbody td:last-child {
     padding: 14px;
     font-size: 14px;
   }
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  .rubika {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .eitaa {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 480px) {
+  .contact-btn eitaa {
+    width: 65px;
+  }
+  .contact-btn rubika {
+    width: 65px;
+  }
   .catalog {
     padding: 10px;
   }
@@ -133,6 +161,24 @@ tbody td:last-child {
     gap: 10px;
     margin-bottom: 15px;
     margin-top: 15px;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .rubika {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .eitaa {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
 .contact-box {
