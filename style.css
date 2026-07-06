@@ -8,11 +8,16 @@
 
 body {
   font-family: "Vazirmatn", sans-serif;
-  background: #f5f7fb;
+  background: #ffffff;
   direction: rtl;
   color: #222;
 }
 
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 500px;
+}
 .catalog {
   max-width: 1200px;
   margin: 50px auto;
@@ -92,7 +97,17 @@ tbody td:last-child {
   .header h1 {
     font-size: 28px;
   }
-
+  .contact-box {
+    flex: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 198px;
+  }
   .header p {
     font-size: 15px;
   }
@@ -112,4 +127,47 @@ tbody td:last-child {
   .header h1 {
     font-size: 24px;
   }
+
+  .contact-box {
+    flex: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+.contact-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  transform: translateY(-3px);
+}
+
+.phone {
+  background: #0f766e;
+}
+
+.rubika {
+  background: #0077ff;
+}
+
+.eitaa {
+  background: #f59e0b;
 }
